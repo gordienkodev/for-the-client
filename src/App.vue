@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import AppCard from './components/AppCard.vue'
+</script>
+
 <template>
-  <main></main>
+  <main class="page">
+    <AppCard />
+  </main>
 </template>
